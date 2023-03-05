@@ -1,0 +1,38 @@
+.about-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px;
+}
+.about-box .banner-pic {
+  width: 40%;
+  padding-right: 35px;
+}
+.about-box .banner-pic .brash-pic {
+}
+.about-box .banner-pic .brash-pic img {
+}
+.about-box .banner-pic .brash-pic .pic-area {
+}
+.about-box .banner-pic .brash-pic .pic-area img {
+}
+.about-box .banner-pic img {
+  width: 100%;
+}
+.about-box .about-info {
+  width: 60%;
+}
+.about-box .about-info h4 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #ff9800;
+}
+.about-box .about-info p {
+  font-size: 15px;
+  color: #000;
+}
+
+.about-box .about-info .headline-1 {
+  padding: 0;
+  text-align: left;
+}

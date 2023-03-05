@@ -1,0 +1,31 @@
+.headline-1{
+    padding: 50px 80px;
+    text-align: center;
+}
+.headline-1 h2{
+    font-size: 32px;
+    font-weight: 700;
+    color: #000;
+    line-height: 40px;
+    margin: 0 0 10px;
+}
+.headline-1 h5{
+    font-size: 18px;
+    font-weight: 500;
+    color:#00bcd4;
+    position:relative;
+    margin: 0 0 5px;
+}
+.headline-1 h5 span{
+    position: absolute;
+    width: 35px;
+    height: 2px;
+    background: #00bcd4;
+    bottom: 0;
+    
+}
+.headline-1 p{
+    color:#000;
+    font-size: 16px;
+    margin: 0;
+}

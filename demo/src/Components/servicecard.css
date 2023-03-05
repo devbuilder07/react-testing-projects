@@ -1,0 +1,72 @@
+.serviceboxarea {
+  position: relative;
+  overflow: hidden;
+}
+.SerCardBox {
+  box-shadow: 0 1px 5px 2px rgb(0 0 0 / 5%);
+  margin: 0 5px 25px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  z-index: 1;
+  border-radius: 6px;
+  background: linear-gradient(
+    to right,
+    hsl(37deg 99% 51% / 25%),
+    rgb(252 232 199 / 17%)
+  );
+  position: relative;
+  z-index: 1;
+}
+.SerCardBox::after {
+  position: absolute;
+  content: " ";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 50%;
+  background: #ffffff6e;
+}
+.SerCardBox .IconArea h4 {
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  margin: auto;
+  background: #e0e0e0;
+  border-radius: 50%;
+  margin-bottom: 25px;
+  background: #ff9800;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.SerCardBox .CardInfo {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+.SerCardBox .CardInfo h4 {
+  font-size: 28px;
+  color: #ff9800;
+  font-weight: 700;
+  font-family: "Dancing Script", cursive;
+}
+.SerCardBox .CardInfo p {
+  color: #000;
+  font-size: 14px;
+}
+
+@media (max-width: 991px) {
+  .SerCardBox {
+    width: 48%;
+  }
+}
+
+@media (max-width: 991px) {
+  .SerCardBox {
+    width: 100%;
+  }
+}

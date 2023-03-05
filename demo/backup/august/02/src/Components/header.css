@@ -1,0 +1,30 @@
+.navbar {
+  padding: 12px 50px;
+  background: rgb(255 255 255 / 65%);
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+}
+.navbar ul .navbar-brand {
+  width: 200px;
+}
+.navbar ul .navbar-brand img {
+  width: 100%;
+}
+
+.navbar .navbar-nav {
+  width: 100%;
+  flex: 1;
+  justify-content: flex-end;
+}
+.navbar .navbar-nav .nav-link {
+  font-size: 15px;
+  color: #000;
+  font-weight: 500;
+  margin-left: 25px;
+  transition: 0.4s ease;
+}
+.navbar .navbar-nav .nav-link:hover {
+  color: #ff9800;
+}

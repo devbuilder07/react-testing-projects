@@ -1,0 +1,23 @@
+.about-box {
+  padding: 50px 0;
+}
+.about-box .banner-pic img {
+  width: 100%;
+}
+.about-box .about-info {
+  margin-bottom: 25px;
+}
+.about-box .about-info h4 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #ff9800;
+}
+.about-box .about-info p {
+  font-size: 15px;
+  color: #000;
+}
+
+.about-box .about-info .headline-1 {
+  padding: 0;
+  text-align: left;
+}
